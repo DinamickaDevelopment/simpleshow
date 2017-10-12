@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <body>
+    <form name="book-now" action="" netlify netlify-honeypot="botField">
+      <label>
+        Address:
+        <input type="text" name="address" required/>
+      </label>
+      <label>
+        Time:
+        <input type="text" name="datetime" required/>
+      </label>
+      <label>
+        Name:
+        <input type="text" name="name" required/>
+      </label>
+      <label>
+        Email:
+        <input type="email" name="email" required/>
+      </label>
+      <label>
+        Phone:
+        <input type="tel" name="phone" required/>
+      </label>
+      <label class="hidden">
+        Bot Field:
+        <input type="text" name="botField"/>
+      </label>
+      <label class="hidden">
+        Form Name:
+        <input type="text" name="form-name" value="book-now"/>
+      </label>
+      <input type="submit" value="subimt"/>
+    </form>
+  </body>
+</html>

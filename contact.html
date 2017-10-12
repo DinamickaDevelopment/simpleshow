@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <body>
+    <form name="contact" action="" netlify netlify-honeypot="botField">
+      <label>
+        Name
+        <input type="text" name="name" required/>
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" required/>
+      </label>
+      <label>
+        Phone Number
+        <input type="tel" name="phone" required/>
+      </label>
+      <label>
+        Subject
+        <input type="text" name="subject" required/>
+      </label>
+      <label>
+        Message
+        <textarea name="message" required/>
+      </label>
+      <label class="hidden">
+        Bot Field
+        <input type="text" name="botField"/>
+      </label>
+      <label class="hidden">
+        Form Name
+        <input type="text" name="form-name" value="contact"/>
+      </label>
+      <input type="submit" value="send message"/>
+    </form>
+  </body>
+</html>
